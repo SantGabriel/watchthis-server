@@ -1,0 +1,242 @@
+[
+    {
+        "_id": {
+            "$oid": "5eb2d20edc1af509b4513973"
+        },
+        "nome": "Jogo"
+    },
+    {
+        "_id": {
+            "$oid": "5eb2d20edc1af509b4513974"
+        },
+        "nome": "Magia"
+    },
+    {
+        "_id": {
+            "$oid": "5eb2d20edc1af509b4513975"
+        },
+        "nome": "Aventura"
+    },
+    {
+        "_id": {
+            "$oid": "5eb2d20edc1af509b4513976"
+        },
+        "nome": "Fantasia"
+    },
+    {
+        "_id": {
+            "$oid": "5eb2d20edc1af509b4513977"
+        },
+        "nome": "Ficção Científica"
+    },
+    {
+        "_id": {
+            "$oid": "5eb2d20edc1af509b4513978"
+        },
+        "nome": "Drama"
+    },
+    {
+        "_id": {
+            "$oid": "5eb2d20edc1af509b4513979"
+        },
+        "nome": "Ação"
+    },
+    {
+        "_id": {
+            "$oid": "5eb2d20edc1af509b451397a"
+        },
+        "nome": "Comédia"
+    },
+    {
+        "_id": {
+            "$oid": "5eb2d20edc1af509b451397b"
+        },
+        "nome": "Paródia"
+    },
+    {
+        "_id": {
+            "$oid": "5eb2d20edc1af509b451397c"
+        },
+        "nome": "Romance"
+    },
+    {
+        "_id": {
+            "$oid": "5eb2d20edc1af509b451397d"
+        },
+        "nome": "Escolar"
+    },
+    {
+        "_id": {
+            "$oid": "5eb2d20edc1af509b451397e"
+        },
+        "nome": "Shoujo"
+    },
+    {
+        "_id": {
+            "$oid": "5eb2d20edc1af509b451397f"
+        },
+        "nome": "Seinen"
+    },
+    {
+        "_id": {
+            "$oid": "5eb2d20edc1af509b4513980"
+        },
+        "nome": "Slice of Life"
+    },
+    {
+        "_id": {
+            "$oid": "5eb2d20edc1af509b4513981"
+        },
+        "nome": "Sobrenatural"
+    },
+    {
+        "_id": {
+            "$oid": "5eb2d20edc1af509b4513982"
+        },
+        "nome": "Shounen"
+    },
+    {
+        "_id": {
+            "$oid": "5eb2d20edc1af509b4513983"
+        },
+        "nome": "Musical"
+    },
+    {
+        "_id": {
+            "$oid": "5eb2d20edc1af509b4513984"
+        },
+        "nome": "Harem"
+    },
+    {
+        "_id": {
+            "$oid": "5eb2d20edc1af509b4513985"
+        },
+        "nome": "Demônios"
+    },
+    {
+        "_id": {
+            "$oid": "5eb2d20edc1af509b4513986"
+        },
+        "nome": "Espaço"
+    },
+    {
+        "_id": {
+            "$oid": "5eb2d20edc1af509b4513987"
+        },
+        "nome": "Criança"
+    },
+    {
+        "_id": {
+            "$oid": "5eb2d20edc1af509b4513988"
+        },
+        "nome": "Esporte"
+    },
+    {
+        "_id": {
+            "$oid": "5eb2d20edc1af509b4513989"
+        },
+        "nome": "Historia"
+    },
+    {
+        "_id": {
+            "$oid": "5eb2d20edc1af509b451398a"
+        },
+        "nome": "Mecha"
+    },
+    {
+        "_id": {
+            "$oid": "5eb2d20edc1af509b451398b"
+        },
+        "nome": "Ecchi"
+    },
+    {
+        "_id": {
+            "$oid": "5eb2d20edc1af509b451398c"
+        },
+        "nome": "Mistério"
+    },
+    {
+        "_id": {
+            "$oid": "5eb2d20edc1af509b451398d"
+        },
+        "nome": "Super Poderes"
+    },
+    {
+        "_id": {
+            "$oid": "5eb2d20edc1af509b451398e"
+        },
+        "nome": "Militar"
+    },
+    {
+        "_id": {
+            "$oid": "5eb2d20edc1af509b451398f"
+        },
+        "nome": "Crime"
+    },
+    {
+        "_id": {
+            "$oid": "5eb2d20edc1af509b4513990"
+        },
+        "nome": "Historia"
+    },
+    {
+        "_id": {
+            "$oid": "5eb2d20edc1af509b4513991"
+        },
+        "nome": "Suspense"
+    },
+    {
+        "_id": {
+            "$oid": "5eb2d20edc1af509b4513992"
+        },
+        "nome": "Animação"
+    },
+    {
+        "_id": {
+            "$oid": "5eb2d20edc1af509b4513993"
+        },
+        "nome": "Família"
+    },
+    {
+        "_id": {
+            "$oid": "5eb2d20edc1af509b4513994"
+        },
+        "nome": "Biografia"
+    },
+    {
+        "_id": {
+            "$oid": "5eb2d20edc1af509b4513995"
+        },
+        "nome": "Guerra"
+    },
+    {
+        "_id": {
+            "$oid": "5eb2d20edc1af509b4513996"
+        },
+        "nome": "Terror"
+    },
+    {
+        "_id": {
+            "$oid": "5eb2d20edc1af509b4513997"
+        },
+        "nome": "Documentário"
+    },
+    {
+        "_id": {
+            "$oid": "5eb2d20edc1af509b4513998"
+        },
+        "nome": "Game-Show"
+    },
+    {
+        "_id": {
+            "$oid": "5eb2d20edc1af509b4513999"
+        },
+        "nome": "Reality-TV"
+    },
+    {
+        "_id": {
+            "$oid": "5eb2d20edc1af509b451399a"
+        },
+        "nome": "Talk-Show"
+    }
+]

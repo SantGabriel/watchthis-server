@@ -1,0 +1,102 @@
+[
+    {
+        "_id": {
+            "$oid": "5eb0710a10954e32a08ed6ee"
+        },
+        "nome": "Chasing Life",
+        "tipo": "serie",
+        "url": "N/A",
+        "categorias": [
+            "Documentário"
+        ],
+        "dataInicio": "2019",
+        "dataFim": "?",
+        "avaliacao": 6.5,
+        "duracao": "N/A",
+        "nVotos": 2,
+        "nListas": 2,
+        "descricao": "N/A"
+    },
+{
+        "_id": {
+            "$oid": "5eb0712610954e32a08ed6ef"
+        },
+        "nome": "Extremely Wicked, Shockingly Evil and Vile",
+        "tipo": "filme",
+        "url": "https://m.media-amazon.com/images/M/MV5BMjM4ZjY5ZmQtNjUwYi00Yzk2LWIwNmMtYTg1NmU0MWExZTMzXkEyXkFqcGdeQXVyMTg2MDEyMzM@._V1_SX300.jpg",
+        "categorias": [
+            "Biografia",
+            "Crime",
+            "Drama",
+            "Suspense"
+        ],
+        "dataInicio": "2019",
+        "dataFim": "none",
+        "avaliacao": 6,
+        "duracao": 110,
+        "nVotos": 1,
+        "nListas": 2,
+        "descricao": "A chronicle of the crimes of Ted Bundy from the perspective of Liz, his longtime girlfriend, who refused to believe the truth about him for years."
+    },
+{
+        "_id": {
+            "$oid": "5eb0715110954e32a08ed6f0"
+        },
+        "nome": "Sora yori mo Tooi Basho",
+        "tipo": "anime",
+        "url": "https://cdn.myanimelist.net/r/96x136/images/anime/6/89879.webp?s=20b827b454427de63bcb7871a63cdf83",
+        "categorias": [
+            "Aventura",
+            "Comédia"
+        ],
+        "dataInicio": "02-01-18",
+        "dataFim": "27-03-18",
+        "avaliacao": 5.333333333333333,
+        "duracao": 13,
+        "nVotos": 3,
+        "nListas": 3,
+        "descricao": "anime Sora yori mo Tooi Basho começa do ano de 02-01-18 e termina em 27-03-18 com 13 episódios"
+    },
+{
+        "_id": {
+            "$oid": "5eb0716510954e32a08ed6f1"
+        },
+        "nome": "Lost Universe",
+        "tipo": "anime",
+        "url": "https://cdn.myanimelist.net/r/96x136/images/anime/3/20409.webp?s=fa0637f28ebf73b9c7f650410ce59d1b",
+        "categorias": [
+            "Aventura",
+            "Comédia",
+            "Drama",
+            "Ficção Científica",
+            "Shounen",
+            "Espaço"
+        ],
+        "dataInicio": "03-04-98",
+        "dataFim": "25-09-98",
+        "avaliacao": 8.5,
+        "duracao": 26,
+        "nVotos": 2,
+        "nListas": 2,
+        "descricao": "anime Lost Universe começa do ano de 03-04-98 e termina em 25-09-98 com 26 episódios"
+    },
+{
+        "_id": {
+            "$oid": "5eb0717510954e32a08ed6f2"
+        },
+        "nome": "The Devil Wears Prada",
+        "tipo": "filme",
+        "url": "https://m.media-amazon.com/images/M/MV5BZjQ3ZTIzOTItMGNjNC00MWRmLWJlMGEtMjJmMDM5ZDIzZGM3XkEyXkFqcGdeQXVyMTkzODUwNzk@._V1_SX300.jpg",
+        "categorias": [
+            "Comédia",
+            "Drama"
+        ],
+        "dataInicio": "2006",
+        "dataFim": "none",
+        "avaliacao": 3,
+        "duracao": 109,
+        "nVotos": 3,
+        "nListas": 3,
+        "descricao": "A smart but sensible new graduate lands a job as an assistant to Miranda Priestly, the demanding editor-in-chief of a high fashion magazine."
+    }
+]

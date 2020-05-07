@@ -1,0 +1,119 @@
+[
+    {
+        "_id": {
+            "$oid": "5eb03ef4dd80973344545e04"
+        },
+        "username": "gabriel",
+        "password": "ec5edd37406997bf248c108896cfe732",
+        "role": 1,
+        "dataIv": "c78cb00653e05064",
+        "itensLista": [
+            {
+                "nota": 2,
+                "statusItem": "Desisti de assistir",
+                "obra": {
+                    "$oid": "5eb0717510954e32a08ed6f2"
+                }
+            },
+            {
+                "nota": 10,
+                "statusItem": "Já assisti",
+                "obra": {
+                    "$oid": "5eb0716510954e32a08ed6f1"
+                }
+            },
+            {
+                "nota": 8,
+                "statusItem": "Estou a assistir",
+                "obra": {
+                    "$oid": "5eb0715110954e32a08ed6f0"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "5eb0a8f6b3c4c9347cb37adf"
+        },
+        "username": "Badalo",
+        "password": "b03ca559ee33da2572d32c1102e6cb6e",
+        "role": 1,
+        "dataIv": "8b690f61ddad3f8e",
+        "itensLista": [
+            {
+                "nota": 1,
+                "statusItem": "Desisti de assistir",
+                "obra": {
+                    "$oid": "5eb0715110954e32a08ed6f0"
+                }
+            },
+            {
+                "nota": 6,
+                "statusItem": "Já assisti",
+                "obra": {
+                    "$oid": "5eb0717510954e32a08ed6f2"
+                }
+            },
+            {
+                "nota": 7,
+                "statusItem": "Estou a assistir",
+                "obra": {
+                    "$oid": "5eb0716510954e32a08ed6f1"
+                }
+            },
+            {
+                "nota": 9,
+                "statusItem": "Estou a assistir",
+                "obra": {
+                    "$oid": "5eb0710a10954e32a08ed6ee"
+                }
+            },
+            {
+                "nota": 6,
+                "statusItem": "Estou a assistir",
+                "obra": {
+                    "$oid": "5eb0712610954e32a08ed6ef"
+                }
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "5eb0a906b3c4c9347cb37ae0"
+        },
+        "username": "Diogo",
+        "password": "b68f0d060dfaf5418547c12f25c0f4f1",
+        "role": 1,
+        "dataIv": "df05d384f1be43bb",
+        "itensLista": [
+            {
+                "nota": 4,
+                "statusItem": "Já assisti",
+                "obra": {
+                    "$oid": "5eb0710a10954e32a08ed6ee"
+                }
+            },
+            {
+                "nota": -1,
+                "statusItem": "Estou a assistir",
+                "obra": {
+                    "$oid": "5eb0712610954e32a08ed6ef"
+                }
+            },
+            {
+                "nota": 7,
+                "statusItem": "Estou a assistir",
+                "obra": {
+                    "$oid": "5eb0715110954e32a08ed6f0"
+                }
+            },
+            {
+                "nota": 1,
+                "statusItem": "Desisti de assistir",
+                "obra": {
+                    "$oid": "5eb0717510954e32a08ed6f2"
+                }
+            }
+        ]
+    }
+]
