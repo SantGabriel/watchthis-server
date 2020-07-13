@@ -10,7 +10,7 @@ const connectDB = () => {
     });
   });
 };
-const getDB = () => mongodb.db("gurotudo");
+const getDB = () => mongodb.db("watchthis");
 const disconnectDB = () => _db.close();
 
 module.exports = { connectDB, getDB, disconnectDB };
