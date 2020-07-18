@@ -63,11 +63,13 @@ exports.getItemLista = (userId, obraId) => {
   });
 };
 
-exports.getItensLista = (userId) => {
+exports.getItensLista = (userId,search) => {
   return new Promise((resolve, reject) => {
     let cont = 0;
+    //let filterObra = search ? {"nome": { $regex: "(?i).*" + search + ".*" }} : {}; 
+    let filter = { _id: ObjectId(userId)/*, itensLista: {filterObra}*/ };
     db.collection("users")
-      .findOne({ _id: ObjectId(userId) }) //encontra o user
+      .findOne(filter) //encontra o user
       .then((user) => {
         let itensListaComObras = [];    //array de itemLista com a sua respectiva Obra
         if (user.itensLista) {            //se o user tem uma lista          
