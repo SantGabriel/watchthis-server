@@ -63,30 +63,27 @@ exports.getItemLista = (userId, obraId) => {
   });
 };
 
-exports.getItensLista = (userId, search) => {
+exports.getItensLista = (userId,search) => {
   return new Promise((resolve, reject) => {
     let cont = 0;
-    search = search ? search.toLowerCase() : "";
-    let filterUser = { _id: ObjectId(userId) };
-
+    //let filterObra = search ? {"nome": { $regex: "(?i).*" + search + ".*" }} : {}; 
+    let filter = { _id: ObjectId(userId)/*, itensLista: {filterObra}*/ };
     db.collection("users")
-      .findOne(filterUser) //encontra o user
+      .findOne(filter) //encontra o user
       .then((user) => {
         let itensListaComObras = [];    //array de itemLista com a sua respectiva Obra
         if (user.itensLista) {            //se o user tem uma lista          
           user.itensLista.forEach(itemLista => {  //procura a obra de cada item da lista
             db.collection("obras")
               .findOne({ _id: itemLista.obra }) //encontra a obra do itemLista
-              .then((obra) => {                
-                if (obra.nome.toLowerCase().includes(search)) { //Adiciona apenas obras que passam pelo filtro
-                  itensListaComObras.push( //preenche o array de itemLista com a sua respectiva Obra
-                    { nota: itemLista.nota, statusItem: itemLista.statusItem, obra: obra }
-                  )
-                }
+              .then((obra) => {
+                itensListaComObras.push( //preenche o array de itemLista com a sua respectiva Obra
+                  { nota: itemLista.nota, statusItem: itemLista.statusItem, obra: obra }
+                )
                 cont++;
                 //retorna o itensLista depois que todas as suas respectivas obras foram encontradas 
-                if (cont === user.itensLista.length) resolve(itensListaComObras);                
-              });   
+                if (cont === user.itensLista.length) resolve(itensListaComObras);
+              });
           });
           if (user.itensLista.length === 0) resolve([]);
         } else resolve([])

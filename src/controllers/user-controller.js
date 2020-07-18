@@ -24,7 +24,7 @@ exports.getItemLista = (req, res) => {
 
 exports.getItensLista = (req, res) => {
   userService
-    .getItensLista(req.client,req.params.search ? req.params.search : "")
+    .getItensLista(req.client)
     .then((result) => res.json(result))
     .catch((err) => res.status(500).send(err.message));
 };
