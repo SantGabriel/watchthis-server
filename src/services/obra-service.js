@@ -1,12 +1,9 @@
 const db = require('../configs/mongodb.js').getDB();
 const ObjectId = require('mongodb').ObjectID;
 
-exports.getObras = ( /*queryString*/ ) => {
+exports.getObras = (search) => {
     return new Promise((resolve, reject) => {
-        let filter = {};
-        /*if (queryString.search) {
-          filter.title = { $regex: new RegExp(queryString.search, "i") };
-        }*/
+        let filter = search ? {"nome": { $regex: "(?i).*" + search + ".*" }} : {}; 
         db.collection("obras")
             .find(filter)
             .toArray()

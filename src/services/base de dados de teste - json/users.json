@@ -115,5 +115,15 @@
                 }
             }
         ]
+    },
+    {
+        "_id": {
+            "$oid": "5f11fbab1c8b243950538827"
+        },
+        "username": "Casimiro",
+        "password": "b5a6e241ce549dd97b67ef2ff1f93922",
+        "role": 2,
+        "dataIv": "af9041848d506a26",
+        "itensLista": []
     }
 ]

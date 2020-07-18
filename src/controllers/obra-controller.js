@@ -2,7 +2,7 @@ const obraService = require('../services/obra-service.js');
 
 exports.getObras = (req, res) => {
     obraService
-        .getObras()
+        .getObras(req.params.search)
         .then(result => res.json(result))
         .catch(err => res.status(500).send(err.message));
 };
