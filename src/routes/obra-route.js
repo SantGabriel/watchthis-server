@@ -3,8 +3,8 @@ const router = require("express").Router();
 const authorize = require("../configs/authorization");
 const roles = require("../helpers/roles.js");
 
-router.get("", authorize(), obraController.getObras);
-router.get("/:id", authorize(), obraController.getObra);
+router.get("", obraController.getObras);
+router.get("/:id", obraController.getObra);
 
 router.post("", authorize(roles.Boss), obraController.insertObra);
 router.put("/:id", authorize(roles.Boss), obraController.updateObra);
