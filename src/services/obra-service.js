@@ -3,7 +3,8 @@ const ObjectId = require('mongodb').ObjectID;
 
 exports.getObras = (search) => {
     return new Promise((resolve, reject) => {
-        let filter = search ? {"nome": { $regex: "(?i).*" + search + ".*" }} : {}; 
+        search = search ? search.toLowerCase() : "";
+        let filter = search ? { "nome": { $regex: "(?i).*" + search + ".*" } } : {};
         db.collection("obras")
             .find(filter)
             .toArray()
@@ -70,6 +71,19 @@ exports.removeObra = (obraId) => {
         db.collection("obras")
             .deleteOne({ _id: ObjectId(obraId) })
             .then(() => resolve({ removed: 1 }))
+            .catch((err) => reject(err));
+    });
+};
+
+exports.removeObra = (obraId) => {
+    return new Promise((resolve, reject) => {
+        db.collection("obras")
+            .deleteOne({ _id: ObjectId(obraId) })
+            .then(() => {
+                db.collection("users").update({}, {
+                    $pull: { itensLista: { $in: ObjectId(obraId) } }
+                })
+            })
             .catch((err) => reject(err));
     });
 };
